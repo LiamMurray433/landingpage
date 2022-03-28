@@ -1,4 +1,4 @@
-* {border: 1px solid red;}
+/* * {border: 1px solid red;} */
 
 body{
 
@@ -8,78 +8,3 @@ body{
     margin: 0;
 }
 
-.menu{
-    display: flex;
-    padding: 5px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1F2937;
-    padding: 0px 50px 0px 50px;
-}
-
-.logo{
-    font-size: 24px;
-    color:#F9FAF8;
-    padding: 5px;
-    font-weight: bold;
-    margin-right: auto;
-    justify-self: flex-start;
-}
-
-.item{
-    font-size: 18px;
-    color: #E5E7EB;
-    padding: 10px;
-
-}
-
-.main{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 10px;
-    background-color: #1F2937;
-    padding: 0px 50px 0px 50px;
-
-
-}   
-
-.main-text{
-    
-}
-
-h1{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-p{
-    font-size: 18px;
-    color: #E5E7EB; 
-}
-
-.f1-img{
-    
-    margin: auto;
-    width: 600px;
-    height: auto;
-   
-}
-
-.f1-img img {
-    width: 100%;
-    height: auto;
-}
-
-.sign-up{
-    background-color: #3882f6;
-    color: white;
-    font-weight: bold;
-    border-radius: px;
-    text-align: center;
-    text-decoration: none;
-    padding: 5px 10px;
-}
