@@ -66,3 +66,13 @@ p{
     margin-right: auto;
    
 }
+
+.sign-up{
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+}
