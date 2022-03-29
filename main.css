@@ -1,6 +1,6 @@
  * {
     box-sizing: border-box; 
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     padding: 0;
     margin: 0;
 
@@ -97,4 +97,32 @@ ul {
 
 .sign-up:hover{
     background-color: #5675a0;
+}
+
+.drivers{
+    min-height: 300px;
+}
+
+.drivers .container{
+    display: flex;
+
+}
+
+.container h1{
+    text-align: center;
+}
+
+.drivers img{
+    max-width: 100px;
+}
+
+.driverimg{
+    display: flex;
+}
+
+.driverimg a{
+    margin: 0px, 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
 }
