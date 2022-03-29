@@ -1,6 +1,6 @@
  * {
     box-sizing: border-box; 
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     padding: 0;
     margin: 0;
 
@@ -75,6 +75,7 @@ ul {
 
 .header img{
     max-width: 400px;
+    border-radius: 48px;
 }
 
 .header .container{
@@ -105,6 +106,7 @@ ul {
 
 .drivers .container{
     display: flex;
+    flex-direction: column;
 
 }
 
@@ -112,17 +114,22 @@ ul {
     text-align: center;
 }
 
-.drivers img{
-    max-width: 100px;
-}
-
 .driverimg{
     display: flex;
+    
+    margin: 50px;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.driverimg img{
+    max-width: 100px;
+    border: 3px solid #5675a0;
+    border-radius: 48px; 
 }
 
-.driverimg a{
-    margin: 0px, 20px;
-    display: inline-block;
-    text-decoration: none;
-    color: black;
+
+
+.driverimg h3{
+    text-align: center;
 }
