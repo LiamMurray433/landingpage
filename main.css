@@ -209,3 +209,13 @@ ul {
     width: 100px;
     height: 36px;
 }
+
+.call .sign-up:hover{
+    background-color: #5675a0;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+}
