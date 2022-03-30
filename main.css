@@ -174,3 +174,38 @@ ul {
     padding: 5px;
     margin: 10px;
 }
+
+.call{
+    background-color: #E5E7EB;
+    
+}
+
+.call .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.call-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: #E5E7EB;
+    font-size: small;
+}
+
+.call .sign-up{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 36px;
+}
