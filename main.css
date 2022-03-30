@@ -24,8 +24,8 @@ ul {
 }   
 
 .navbar{
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #9B1D20;
+    color: #F7F0F0;
     height: 60px;
 }
 
@@ -61,8 +61,8 @@ ul {
 }
 
 .header{
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #F7F0F0;
+    color: #635D5c;
     min-height: 400px;
 
 }
@@ -86,7 +86,7 @@ ul {
 }
 
 .sign-up{
-    background-color: #3882F6;
+    background-color: #9B1D20;
     color: #F9FAF8;
     text-align: center;
     border: none;
@@ -98,13 +98,13 @@ ul {
 }
 
 .sign-up:hover{
-    background-color: #5675a0;
+    background-color: #635D5C;
 }
 
 .drivers{
     min-height: 300px;
+    background-color: #F7F0F0;
 }
-
 .drivers .container{
     display: flex;
     flex-direction: column;
@@ -114,8 +114,9 @@ ul {
 .container h2{
     text-align: center;
     font-size: 36px;
-    color: #1F2937;
+    color: #635D5c;
     font-weight: bolder; 
+    
 
 
 }
@@ -131,7 +132,7 @@ ul {
     max-width: 100px;
     height: 94px;
     width: 94px;
-    border: 3px outset #5675a0;
+    border: 3px outset #f3a738;
     border-radius: 24px; 
 }
 
@@ -140,11 +141,11 @@ ul {
 .driverimg h3{
     text-align: center;
     font-size: small;
-    color: #1F2937;
+    color: #9B1D20;
 }
 
 .quote{
-    background-color: #E5E7EB;
+    background-color: #F7F0F0;
 }
 
 .quote .container{
@@ -156,7 +157,7 @@ ul {
 
 .quote p{
     align-content: center;
-    color: #1F2937;
+    color: #635D5c;
     font-weight:lighter;
     font-style: italic;
     font-size: 32px;
@@ -173,10 +174,11 @@ ul {
     text-align: right;
     padding: 5px;
     margin: 10px;
+    color: #635D5c;
 }
 
 .call{
-    background-color: #E5E7EB;
+    background-color: #9B1D20;
     
 }
 
@@ -191,14 +193,14 @@ ul {
     align-items: center;
     width: 700px;
     height: 100px;
-    background-color: #3882F6;
+    background-color: #635D5c;
     border-radius: 12px;
     color: #E5E7EB;
     font-size: small;
 }
 
 .call .sign-up{
-    background-color: #3882F6;
+    background-color: #635D5c;
     color: #F9FAF8;
     text-align: center;
     border: 1px solid #E5E7EB;
@@ -211,11 +213,11 @@ ul {
 }
 
 .call .sign-up:hover{
-    background-color: #5675a0;
+    background-color: #9B1D20;
 }
 
 .footer{
-    background-color: #1F2937;
+    background-color: #9B1D20;
     color: #E5E7EB;
     text-align: center;
 }
