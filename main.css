@@ -1,6 +1,6 @@
  * {
     box-sizing: border-box; 
-   /* border: 1px solid red;*/
+    border: 1px solid red;
     padding: 0;
     margin: 0;
 
@@ -140,4 +140,36 @@ ul {
     text-align: center;
     font-size: small;
     color: #1F2937;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quote .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p{
+    align-content: center;
+    color: #1F2937;
+    font-weight:lighter;
+    font-style: italic;
+    font-size: 32px;
+    padding: 56px;
+    margin: 10px;
+    
+}
+
+.quote .name{
+    width: 100%;
+}
+.quote h3{
+    text-align: right;
+   
+    padding: 5px;
+    margin: 10px;
 }
